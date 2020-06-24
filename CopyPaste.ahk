@@ -8,6 +8,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 <!q::Send, !{F4}
 <!z::Send, ^z
 <!f::Send, ^f
-<!h::Send, +{WinMinimize, [ WinTitle, WinText, ExcludeTitle, ExcludeText]} ; minimize all
+<!h::WinMinimize, A ; minimize all
 <!t::Send, ^t
 <!n::Send, ^n
